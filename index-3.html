@@ -1,0 +1,51 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="index, follow"><title>NBA Predictor</title><meta name="description" content="Daily win probabilities for every NBA game."><meta property="og:title" content="NBA Predictor"><meta property="og:description" content="Daily win probabilities for every NBA game."><link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏀</text></svg>">
+<style>
+.nbp{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:#0f172a;color:#e2e8f0;padding:22px;border-radius:16px;max-width:1100px}
+.nbp h1{margin:0;font-size:26px;letter-spacing:-.3px;color:#f8fafc}
+.nbp .sub{color:#94a3b8;font-size:13px;margin:4px 0 18px}
+.nbp .tiles{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:18px}
+.nbp .tile{background:#1e293b;border-radius:12px;padding:10px 14px;min-width:120px}
+.nbp .tile .v{font-size:20px;font-weight:700;color:#f8fafc}
+.nbp .tile .k{font-size:11px;color:#94a3b8;text-transform:uppercase;letter-spacing:.6px}
+.nbp .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(330px,1fr));gap:14px}
+.nbp .card{background:#1e293b;border-radius:14px;padding:14px 16px}
+.nbp .top{display:flex;justify-content:space-between;align-items:center;font-size:12px;color:#94a3b8;margin-bottom:10px}
+.nbp .teams{display:flex;justify-content:space-between;align-items:baseline;gap:8px;margin-bottom:10px}
+.nbp .tm{font-size:16px;font-weight:700;color:#f8fafc}
+.nbp .tm small{display:block;font-size:11px;font-weight:500;color:#94a3b8}
+.nbp .tm.r{text-align:right}
+.nbp .bar{display:flex;height:30px;border-radius:8px;overflow:hidden;gap:2px}
+.nbp .seg{display:flex;align-items:center;justify-content:center;font-weight:700;font-size:14px;color:#0b1220;min-width:48px}
+.nbp .away{background:#38bdf8}
+.nbp .home{background:#fb923c}
+.nbp .dim{opacity:.55}
+.nbp .pick{margin-top:10px;font-size:13px}
+.nbp .pick b{color:#f8fafc}
+.nbp .muted{color:#94a3b8;font-size:12px;margin-top:4px}
+.nbp .chip{display:inline-block;font-size:11px;padding:3px 8px;border-radius:999px;margin:6px 6px 0 0}
+.nbp .out{background:#3b1d2a;color:#fda4af}
+.nbp .doubt{background:#33290f;color:#fcd34d}
+.nbp .st{padding:3px 9px;border-radius:999px;background:#334155;color:#cbd5e1;font-size:11px}
+.nbp .st.live{background:#422006;color:#fdba74}
+.nbp .st.ok{background:#14532d;color:#86efac}
+.nbp .st.bad{background:#4c0519;color:#fda4af}
+.nbp .foot{color:#64748b;font-size:11.5px;margin-top:16px;line-height:1.5}
+</style>
+
+<style>
+html{background:#0b1220}
+body{margin:0;padding:16px;background:#0b1220;-webkit-text-size-adjust:100%}
+.nbp{margin:0 auto}
+.nbp .grid{grid-template-columns:repeat(auto-fill,minmax(min(330px,100%),1fr))}
+.nbp h2{font-size:17px;margin:26px 0 10px;color:#f8fafc}
+.nbp .tbl{overflow-x:auto}
+.nbp table{width:100%;border-collapse:collapse;font-size:13px}
+.nbp th{text-align:left;color:#94a3b8;font-weight:600;font-size:11px;text-transform:uppercase;letter-spacing:.6px;padding:6px 8px}
+.nbp td{padding:8px;border-top:1px solid #243247;white-space:nowrap}
+.nbp td.ok{color:#86efac;font-weight:700}
+.nbp td.bad{color:#fda4af;font-weight:700}
+.nbp details{background:#1e293b;border-radius:12px;padding:12px 16px;margin-top:18px;font-size:13px;line-height:1.55;color:#cbd5e1}
+.nbp summary{cursor:pointer;font-weight:600;color:#f8fafc}
+.nbp .updated{color:#64748b}
+</style>
+</head><body><div class="nbp"><h1>NBA Predictor</h1><div class="sub">Thursday, October 29, 2026 · 3 games · <span class="updated">updated Oct 29, 10:23 AM ET</span></div><div class="tiles"><div class="tile"><div class="v">16</div><div class="k">Games tracked</div></div><div class="tile"><div class="v">68.8%</div><div class="k">v2 accuracy</div></div><div class="tile"><div class="v">0.555</div><div class="k">v2 log loss</div></div><div class="tile"><div class="v">0.605</div><div class="k">Elo-only log loss</div></div></div><div class="grid"><div class="card"><div class="top"><span class="st">Upcoming</span><span>8:00 PM ET</span></div><div class="teams"><div class="tm">CLE<small>Cleveland Cavaliers</small></div><div class="tm r">ATL<small>Atlanta Hawks · home</small></div></div><div class="bar"><div class="seg away dim" style="flex:0.4580 1 0">46%</div><div class="seg home" style="flex:0.5420 1 0">54%</div></div><div class="pick">Pick: <b>ATL</b> 54% · Toss-up</div><div class="muted">Elo alone: ATL 57% → 54% with rest, injuries and roster</div><div class="muted">Also listed, rated near average or below so no adjustment: Mouhamed Gueye (ATL, out)</div></div><div class="card"><div class="top"><span class="st">Upcoming</span><span>8:00 PM ET</span></div><div class="teams"><div class="tm">SAC<small>Sacramento Kings</small></div><div class="tm r">NO<small>New Orleans Pelicans · home</small></div></div><div class="bar"><div class="seg away dim" style="flex:0.3911 1 0">39%</div><div class="seg home" style="flex:0.6089 1 0">61%</div></div><div class="pick">Pick: <b>NO</b> 61% · Lean</div><div class="muted">Elo alone: NO 65% → 61% with rest, injuries and roster</div><div class="muted">Also listed, rated near average or below so no adjustment: Dylan Cardwell (SAC, out), Maxime Raynaud (SAC, out), Yves Missi (NO, out), Jordan Poole (NO, day-to-day)</div></div><div class="card"><div class="top"><span class="st">Upcoming</span><span>10:00 PM ET</span></div><div class="teams"><div class="tm">MEM<small>Memphis Grizzlies</small></div><div class="tm r">POR<small>Portland Trail Blazers · home</small></div></div><div class="bar"><div class="seg away dim" style="flex:0.2290 1 0">23%</div><div class="seg home" style="flex:0.7710 1 0">77%</div></div><div class="pick">Pick: <b>POR</b> 77% · Strong favorite</div><div class="muted">Elo alone: POR 76% → 77% with rest, injuries and roster</div></div></div><h2>Recent results</h2><div class="tbl"><table><tr><th>Date</th><th>Game</th><th>Pick</th><th>Final</th><th></th></tr><tr><td>2026-10-28</td><td>LAL @ LAC</td><td>LAL 53%</td><td>103–87</td><td class="ok">✓</td></tr><tr><td>2026-10-28</td><td>OKC @ DAL</td><td>OKC 69%</td><td>96–120</td><td class="bad">✗</td></tr><tr><td>2026-10-28</td><td>SA @ UTAH</td><td>SA 81%</td><td>117–111</td><td class="ok">✓</td></tr><tr><td>2026-10-28</td><td>DEN @ NO</td><td>DEN 61%</td><td>104–91</td><td class="ok">✓</td></tr><tr><td>2026-10-28</td><td>GS @ MIN</td><td>MIN 70%</td><td>119–114</td><td class="bad">✗</td></tr><tr><td>2026-10-28</td><td>HOU @ MIL</td><td>HOU 70%</td><td>132–100</td><td class="ok">✓</td></tr><tr><td>2026-10-28</td><td>NY @ CHI</td><td>NY 69%</td><td>133–127</td><td class="ok">✓</td></tr><tr><td>2026-10-28</td><td>ORL @ TOR</td><td>TOR 67%</td><td>99–129</td><td class="ok">✓</td></tr><tr><td>2026-10-28</td><td>PHI @ IND</td><td>PHI 74%</td><td>114–109</td><td class="ok">✓</td></tr><tr><td>2026-10-28</td><td>CHA @ DET</td><td>DET 67%</td><td>89–97</td><td class="ok">✓</td></tr><tr><td>2026-10-28</td><td>WSH @ CLE</td><td>CLE 90%</td><td>111–121</td><td class="ok">✓</td></tr><tr><td>2026-10-28</td><td>MIA @ ATL</td><td>ATL 71%</td><td>129–117</td><td class="bad">✗</td></tr></table></div><details><summary>How it works</summary><p>Every team has a rating that goes up after wins and down after losses, built from every NBA game since 2015. The model then adjusts for rest and back-to-backs, for key players listed as out, and for each team's current roster. It was trained on past seasons and tested on seasons it had never seen: in those tests it picked about two out of three winners, and its probabilities matched how often teams actually won. Data comes from ESPN. Built in Python.</p></details><div class="foot">For fun, not betting advice. Percentages are estimates, not guarantees, and the NBA is full of upsets. Early numbers are noisy until about 100 games have been tracked.</div></div></body></html>
